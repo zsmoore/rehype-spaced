@@ -36,3 +36,24 @@ fun someCode() {
 </Component>
 ````
 And we will pass in html elements with the text wrapped in \<pre\> tags, preserving any formatting put in.
+
+## Usecase
+An example use case we have is with [Kotlin Playground](https://github.com/JetBrains/kotlin-playground/).
+
+By using [Kotlin Playground React Component](https://github.com/zsmoore/kotlin-playground-react-component) we can write Kotlin in markdown and display it in our playground editor.  
+````jsx
+<KTPlayground theme={"darcula"}>
+```spaced
+fun abc() {
+  println("abc");
+}
+
+fun main() {
+  abc()
+}
+```
+</KTPlayground>
+````
+results in
+
+<img width="806" alt="Screenshot 2024-10-20 at 11 06 42 PM" src="https://github.com/user-attachments/assets/e12d72fd-989d-4ae6-a086-9925fdcb8439">
