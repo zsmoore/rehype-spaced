@@ -1,6 +1,6 @@
 {
   "name": "rehype-spaced",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Rehype plugin to preserve spacing on elements passed as children into jsx components",
   "main": "dist/index.js",
   "repository": "git@github.com:zsmoore/rehype-spaced.git",
