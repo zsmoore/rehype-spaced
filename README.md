@@ -1,3 +1,4 @@
+[![NPM version](https://img.shields.io/npm/v/rehype-spaced.svg)](https://www.npmjs.com/package/rehype-spaced)
 # rehype-spaced
 Rehype plugin to preserve spacing on elements passed as children into jsx components
 
